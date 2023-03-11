@@ -1,0 +1,27 @@
+""" 1.Ödev
+
+Veri Tipleri
+
+int: Tam sayıları ifade eder.
+float: Ondalıklı sayıları ifade eder. 
+boolean: True/false yani değer olarak sadece doğru yanlış ta işlem yapar.
+str: Kelime tipini ifade ediyor olup kelimelerle işlem yapılır. 
+list: Birden çok veriyi tutar. 
+
+
+Kurslarım kategori gibi kısımlar string ile list içerir. 
+Kursu bitirme kısımlarında boolean ile işlem yapılır. Bitirdiyse true bitmediyse false değeri olur.
+Arka kısımda ödevlerin tamamlanma barı için int değeri şartla beraber artar %x tamamlandı yazar. 
+
+kullanici_adi="emre"
+sifre="12345"
+input1=input("mail girinic: ")
+input2=input("Parola: ")
+
+if(input1==kullanici_adi and input2==sifre):
+  print("Girişi Başarılı")
+else:
+  print("Kullanıcı adı sifre hatalı")
+
+
+"""
